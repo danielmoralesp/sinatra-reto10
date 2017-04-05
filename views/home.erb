@@ -1,0 +1,5 @@
+<h1><%= "Mi cuenta es:#{@count}"%></h1>
+<form action="/count" method="get">
+  <input type="submit" >
+  <input type="hidden" name="c" value=<%="#{@count}"%> />
+</form>
